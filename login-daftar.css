@@ -1,0 +1,762 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabarito", sans-serif;
+}
+
+body {
+  background-image: url(assets/9406224_26669.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrap {
+  background-color: #edf6f9;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.wrap button {
+  background-color: #93e1d8;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.wrap button.hidden {
+  background-color: transparent;
+  border-color: #fff;
+}
+.daftar {
+  position: relative;
+  bottom: 165px;
+  height: 800px;
+}
+.daftar form input {
+  background: none;
+  border: 2px solid #22577a;
+  text-align: center;
+}
+.daftar form .usia {
+  text-align: center;
+}
+.daftar form label {
+  background: #edf6f9;
+  font-weight: bold;
+}
+.daftar .nama1 {
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom: 535px;
+  left: 165px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.wrap .daftar .nama:focus ~ .nama1,
+.wrap .daftar .nama:valid ~ .nama1 {
+  transform: translateY(-20px) translateX(-110px);
+  font-size: 12px;
+  color: gray;
+}
+.daftar .no {
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom: 475px;
+  left: 165px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.wrap .daftar .hp:focus ~ .no,
+.wrap .daftar .hp:valid ~ .no {
+  transform: translateY(-20px) translateX(-110px);
+  font-size: 12px;
+  color: gray;
+}
+.daftar .usia1 {
+  text-align: center;
+  width: 120px;
+  position: absolute;
+  bottom: 415px;
+  left: 135px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.wrap .daftar .usia:focus ~ .usia1,
+.wrap .daftar .usia:valid ~ .usia1 {
+  transform: translateY(-20px) translateX(-80px);
+  width: 100px;
+  font-size: 12px;
+  color: gray;
+}
+.daftar .nik1 {
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom: 355px;
+  left: 165px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.wrap .daftar .nik:focus ~ .nik1,
+.wrap .daftar .nik:valid ~ .nik1 {
+  transform: translateY(-20px) translateX(-110px);
+  font-size: 12px;
+  color: gray;
+}
+.daftar .labelEmail {
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom: 295px;
+  left: 165px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.wrap .daftar .email:focus ~ .labelEmail,
+.wrap .daftar .email:valid ~ .labelEmail {
+  transform: translateY(-20px) translateX(-110px);
+  font-size: 12px;
+  color: gray;
+}
+.daftar .labelPass {
+  text-align: center;
+  width: 80px;
+  position: absolute;
+  bottom: 235px;
+  left: 160px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.daftar span {
+  position: absolute;
+  bottom: 235px;
+  left: 305px;
+}
+.wrap .daftar .password:focus ~ .labelPass,
+.wrap .daftar .password:valid ~ .labelPass {
+  transform: translateY(-20px) translateX(-105px);
+  font-size: 12px;
+  color: gray;
+}
+.login {
+  position: relative;
+  bottom: 165px;
+  height: 800px;
+}
+.login form input {
+  background: none;
+  border: 2px solid #22577a;
+  text-align: center;
+}
+.login form label {
+  background: #edf6f9;
+  font-weight: bold;
+}
+.login .labelEmail {
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom: 450px;
+  left: 160px;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.wrap .login .email:focus ~ .labelEmail,
+.wrap .login .email:valid ~ .labelEmail {
+  transform: translateY(-20px) translateX(-100px);
+  font-size: 12px;
+  color: gray;
+}
+.login .labelPass {
+  text-align: center;
+  width: 80px;
+  position: absolute;
+  bottom: 390px;
+  left: 155;
+  display: inline-block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.login span {
+  background: #edf6f9;
+  position: absolute;
+  bottom: 390px;
+  left: 308px;
+}
+.wrap .login .password:focus ~ .labelPass,
+.wrap .login .password:valid ~ .labelPass {
+  transform: translateY(-20px) translateX(-95px);
+  font-size: 12px;
+  color: gray;
+}
+.login form .btn-login {
+  background-color: #006d77;
+}
+#login i {
+  padding: 0 15px 0 0;
+}
+#btn-back i {
+  padding: 0 15px 0 0;
+}
+#register i {
+  padding: 0 0 0 15px;
+}
+.wrap form {
+  background-color: #edf6f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  height: 100%;
+}
+
+.wrap input {
+  background-color: none;
+  border: none;
+  margin: 8px 0;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+}
+
+.form-container {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+.sign-in {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.wrap.active .sign-in {
+  transform: translateX(100%);
+}
+
+.sign-up {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.wrap.active .sign-up {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: move 0.6s;
+}
+
+@keyframes move {
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+.toggle-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.6s ease-in-out;
+  border-radius: 300px 0 0 300px;
+  z-index: 1000;
+}
+.wrap.active .toggle-container {
+  transform: translateX(-100%);
+  border-radius: 0 300px 300px 0;
+}
+
+.toggle {
+  background-color: #006d77;
+  height: 100%;
+  background: linear-gradient(to bottom, #006d77, #83c5be);
+  color: #fff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: all 0.6s ease-in-out;
+}
+
+.wrap.active .toggle {
+  transform: translateX(50%);
+}
+
+.toggle-panel {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: center;
+  top: 0;
+  transform: translateX(0);
+  transition: all 0.6s ease-in-out;
+}
+
+.toggle-left {
+  transform: translateX(-200%);
+  text-transform: uppercase;
+  background-image: url(assets/item1.gif);
+  background-size: 400px;
+  background-position-x: -15px;
+  background-position-y: 22px;
+}
+
+.wrap.active .toggle-left {
+  transform: translateX(0);
+}
+
+.toggle-right {
+  right: 0;
+  transform: translateX(0);
+  background-image: url(assets/item2.gif);
+  background-size: cover;
+}
+.toggle-right p {
+  font-size: 12px;
+  margin: 15px 0 0 0;
+}
+.wrap.active .toggle-right {
+  transform: translateX(200%);
+}
+@media  (max-width: 767px) {
+  .wrap {
+    width: 568px;
+    max-width: 100%;
+    min-height: 450px;
+  }
+  label {
+    font-size: 12px;
+  }
+  /* Form Daftar */
+  .form-container .daftar input {
+    width: 200px;
+    height: 35px;
+  }
+  .daftar .nama1 {
+    transform: translateX(-55px) translateY(12px);
+  }
+  .wrap .daftar .nama:focus ~ .nama1,
+  .wrap .daftar .nama:valid ~ .nama1 {
+    transform: translateY(-5px) translateX(-110px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .no {
+    transform: translateX(-55px) translateY(5px);
+  }
+  .wrap .daftar .hp:focus ~ .no,
+  .wrap .daftar .hp:valid ~ .no {
+    transform: translateY(-15px) translateX(-110px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .usia1 {
+    transform: translateY(-5px) translateX(-53px);
+  }
+  .wrap .daftar .usia:focus ~ .usia1,
+  .wrap .daftar .usia:valid ~ .usia1 {
+    width: 70px;
+    transform: translateY(-20px) translateX(-80px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .nik1 {
+    transform: translateY(-15px) translateX(-55px);
+  }
+  .wrap .daftar .nik:focus ~ .nik1,
+  .wrap .daftar .nik:valid ~ .nik1 {
+    transform: translateY(-30px) translateX(-110px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .labelEmail {
+    transform: translateY(-23px) translateX(-55px);
+  }
+  .wrap .daftar .email:focus ~ .labelEmail,
+  .wrap .daftar .email:valid ~ .labelEmail {
+    transform: translateY(-40px) translateX(-110px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .labelPass {
+    transform: translateY(-30px) translateX(-55px);
+  }
+  .daftar span {
+    transform: translateY(-30px) translateX(-90px);
+    font-size: 10px;
+  }
+  .wrap .daftar .password:focus ~ .labelPass,
+  .wrap .daftar .password:valid ~ .labelPass {
+    transform: translateY(-45px) translateX(-105px);
+    font-size: 10px;
+    color: gray;
+  }
+  /* Form Daftar */
+  /* Form Login */
+  .form-container .login input {
+    width: 200px;
+    height: 35px;
+  }
+  .form-container .login .labelEmail {
+    transform: translateX(-47px) translateY(-9px);
+  }
+  .wrap .login .email:focus ~ .labelEmail,
+  .wrap .login .email:valid ~ .labelEmail {
+    transform: translateY(-20px) translateX(-105px);
+    font-size: 10px;
+    color: gray;
+  }
+  .form-container .login .labelPass {
+    transform: translateX(5px) translateY(-17px);
+  }
+  .form-container .login span {
+    transform: translateX(-95px) translateY(-15px);
+    font-size: 10px;
+  }
+  .wrap .login .password:focus ~ .labelPass,
+  .wrap .login .password:valid ~ .labelPass {
+    transform: translateY(-30px) translateX(-48px);
+    font-size: 10px;
+    color: gray;
+  }
+  .toggle-container .toggle-panel h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+  }
+  .toggle-container .toggle-panel button {
+    padding: 15px;
+  }
+  /* Form Login */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrap {
+    width: 568px;
+    max-width: 100%;
+    min-height: 450px;
+  }
+  label {
+    font-size: 12px;
+  }
+    /* Form Login */
+    .form-container .login input {
+      width: 200px;
+      height: 35px;
+    }
+    .form-container .login .labelEmail {
+      transform: translateX(-47px) translateY(-9px);
+    }
+    .wrap .login .email:focus ~ .labelEmail,
+    .wrap .login .email:valid ~ .labelEmail {
+      transform: translateY(-20px) translateX(-105px);
+      font-size: 10px;
+      color: gray;
+    }
+    .form-container .login .labelPass {
+      transform: translateX(5px) translateY(-17px);
+    }
+    .form-container .login span {
+      transform: translateX(-95px) translateY(-15px);
+      font-size: 10px;
+    }
+    .wrap .login .password:focus ~ .labelPass,
+    .wrap .login .password:valid ~ .labelPass {
+      transform: translateY(-30px) translateX(-48px);
+      font-size: 10px;
+      color: gray;
+    }
+    .toggle-container .toggle-panel h1 {
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 0 0 10px 0;
+    }
+    .toggle-container .toggle-panel button {
+      padding: 15px;
+    }
+    /* Form Login */
+  
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .wrap {
+        width: 568px;
+        max-width: 100%;
+        min-height: 450px;
+      }
+      label {
+        font-size: 12px;
+      }
+        /* Form Login */
+        .form-container .login input {
+          width: 200px;
+          height: 35px;
+        }
+        .form-container .login .labelEmail {
+          transform: translateX(-47px) translateY(-5px);
+        }
+        .wrap .login .email:focus ~ .labelEmail,
+        .wrap .login .email:valid ~ .labelEmail {
+          transform: translateY(-20px) translateX(-105px);
+          font-size: 10px;
+          color: gray;
+        }
+        .form-container .login .labelPass {
+          transform: translateX(5px) translateY(-14px);
+        }
+        .form-container .login span {
+          transform: translateX(-95px) translateY(-15px);
+          font-size: 10px;
+        }
+        .wrap .login .password:focus ~ .labelPass,
+        .wrap .login .password:valid ~ .labelPass {
+          transform: translateY(-30px) translateX(-48px);
+          font-size: 10px;
+          color: gray;
+        }
+        .toggle-container .toggle-panel h1 {
+          font-size: 25px;
+          text-transform: uppercase;
+          margin: 0 0 10px 0;
+        }
+        .toggle-container .toggle-panel button {
+          padding: 15px;
+        }
+        /* Form Login */
+        /* Form Daftar */
+  .form-container .daftar input {
+    width: 180px;
+    height: 35px;
+  }
+  .daftar .nama1 {
+    transform: translateX(-50px) translateY(15px);
+  }
+  .wrap .daftar .nama:focus ~ .nama1,
+  .wrap .daftar .nama:valid ~ .nama1 {
+    transform: translateY(-5px) translateX(-100px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .no {
+    transform: translateX(-50px) translateY(5px);
+  }
+  .wrap .daftar .hp:focus ~ .no,
+  .wrap .daftar .hp:valid ~ .no {
+    transform: translateY(-15px) translateX(-100px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .usia1 {
+    transform: translateX(-75px) translateY(-3px) ;
+    width: 170px;
+  }
+  .wrap .daftar .usia:focus ~ .usia1,
+  .wrap .daftar .usia:valid ~ .usia1 {
+    width: 70px;
+    transform: translateY(-25px) translateX(-70px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .nik1 {
+    transform: translateX(-50px) translateY(-10px) ;
+  }
+  .wrap .daftar .nik:focus ~ .nik1,
+  .wrap .daftar .nik:valid ~ .nik1 {
+    transform: translateY(-30px) translateX(-100px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .labelEmail {
+    transform: translateX(-50px) translateY(-20px) ;
+  }
+  .wrap .daftar .email:focus ~ .labelEmail,
+  .wrap .daftar .email:valid ~ .labelEmail {
+    transform: translateY(-40px) translateX(-100px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .labelPass {
+    transform:translateX(-50px) translateY(-30px) ;
+  }
+  .daftar span {
+    transform:translateX(-100px) translateY(-30px) ;
+    font-size: 10px;
+  }
+  .wrap .daftar .password:focus ~ .labelPass,
+  .wrap .daftar .password:valid ~ .labelPass {
+    transform: translateY(-45px) translateX(-95px);
+    font-size: 10px;
+    color: gray;
+  }
+  /* Form Daftar */
+    }
+@media (min-width: 200px) and (max-width: 767px) {
+  .wrap {
+    width: 568px;
+    max-width: 100%;
+    min-height: 450px;
+  }
+  label {
+    font-size: 12px;
+  }
+#btn-back{
+  width: 170px;
+}
+    /* Form Login */
+    .form-container .login input {
+      width: 180px;
+      height: 35px;
+    }
+    .form-container .login .labelEmail {
+      transform: translateX(-87px) translateY(-8px);
+    }
+    .wrap .login .email:focus ~ .labelEmail,
+    .wrap .login .email:valid ~ .labelEmail {
+      transform: translateY(-25px) translateX(-135px);
+      font-size: 10px;
+      color: gray;
+    }
+    .form-container .login .labelPass {
+      transform: translateX(5px) translateY(-15px);
+    }
+    .form-container .login span {
+      transform: translateX(-145px) translateY(-15px);
+      font-size: 10px;
+    }
+    .wrap .login .password:focus ~ .labelPass,
+    .wrap .login .password:valid ~ .labelPass {
+      transform: translateY(-35px) translateX(-35px);
+      font-size: 10px;
+      color: gray;
+    }
+    .toggle-container .toggle-panel h1 {
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 0 0 10px 0;
+    }
+    .toggle-container .toggle-panel button {
+      padding: 15px;
+    }
+    /* Form Login */
+    /* Form Daftar */
+  .form-container .daftar input {
+    width: 180px;
+    height: 35px;
+  }
+  .daftar .nama1 {
+    transform: translateX(-95px) translateY(12px);
+  }
+  .wrap .daftar .nama:focus ~ .nama1,
+  .wrap .daftar .nama:valid ~ .nama1 {
+    transform: translateY(-5px) translateX(-140px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .no {
+    transform: translateX(-95px) translateY(5px);
+  }
+  .wrap .daftar .hp:focus ~ .no,
+  .wrap .daftar .hp:valid ~ .no {
+    transform: translateY(-15px) translateX(-140px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .usia1 {
+    transform: translateX(-120px) translateY(-5px) ;
+    width: 170px;
+  }
+  .wrap .daftar .usia:focus ~ .usia1,
+  .wrap .daftar .usia:valid ~ .usia1 {
+    width: 70px;
+    transform: translateY(-25px) translateX(-110px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .nik1 {
+    transform: translateX(-95px) translateY(-15px) ;
+  }
+  .wrap .daftar .nik:focus ~ .nik1,
+  .wrap .daftar .nik:valid ~ .nik1 {
+    transform: translateY(-30px) translateX(-140px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .labelEmail {
+    transform: translateX(-95px) translateY(-23px) ;
+  }
+  .wrap .daftar .email:focus ~ .labelEmail,
+  .wrap .daftar .email:valid ~ .labelEmail {
+    transform: translateY(-40px) translateX(-140px);
+    font-size: 10px;
+    color: gray;
+  }
+  .daftar .labelPass {
+    transform:translateX(-95px) translateY(-35px) ;
+  }
+  .daftar span {
+    transform:translateX(-140px) translateY(-35px) ;
+    font-size: 10px;
+  }
+  .wrap .daftar .password:focus ~ .labelPass,
+  .wrap .daftar .password:valid ~ .labelPass {
+    transform: translateY(-45px) translateX(-135px);
+    font-size: 10px;
+    color: gray;
+  }
+  /* Form Daftar */
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+}
+body{
+    background-color: #caf0f8;
+}
+nav {
+    background-color: #00b4d8;
+    height: 100px;
+}
+nav span{
+    font-family: 'Agbalumo', cursive;
+    font-weight: bold;
+    font-size: 20px;
+} 
+ .container-fluid span{
+    color: white;
+    text-transform: uppercase;
+} 
+.col-md-2{
+    transform: translateY(-30px);
+    background-color: #00b4d8;
+    padding-top: 40px;
+    height: 100vh;
+}
+.col-md-2 hr{
+    width: 100%;
+}
+.col-md-2 i{
+    margin: 0 10px 0 0;
+}
+.col-md-10 h3{
+    color: #669bbc;
+}
+.col-md-10 table{
+    border: 2px solid #0077b6;
+    text-align: center;
+}
+
+.col-md-10 table tbody tr td, .col-md-10 table thead tr th{
+    background-color: transparent; 
+
+}
+.col-md-10 i{
+    margin: 0 10px 0 0;
+}
+.col-md-10 a{
+    text-decoration: none;
+}
+.col-md-4 a :hover{
+    background-color: rgba(128, 128, 128, 0.25)
+}
+#modal-detail span{
+    color: black;
+    text-transform: capitalize;
+}
+#modal-update .form-control{
+    margin: 0 0 10px 0;
+}
+.input-group-text{
+    width: 200px;
+}
+/* Admin Dashboard */
+#card-user{
+    border-left: 7px solid #0d6efd;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#card-seller{
+    border-left: 7px solid #ffc107;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+#card-mobil{
+    border-left: 7px solid #6610f2;
+    animation-name: animation;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#card-motor{
+    border-left: 7px solid #dc3545;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#card-konfirmasi{
+    border-left: 7px solid #fd7e14;
+    animation-name: animation;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#card-promo{
+    border-left: 7px solid #198754;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+/* Admin Dashboard */
+@keyframes animation {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+  }
+  

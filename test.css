@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar{
+    background-color: #0077b6;
+    background: linear-gradient( 50deg, #0077b6, #00b4d8);
+}
+.navbar img{
+    transform: scale(1) translateX(20px) translateY(-2px);
+    height: 50px;
+}
+.navbar-brand{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+.navbar strong{
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.navbar hr{
+    margin: 5px 0 0 0;
+}
+.navbar ul{
+    font-size: 20px;
+}
+.navbar ul li{
+    margin: 0 0 20px 0;
+}
+.navbar ul li a{
+    transition: 0.2s;
+}
+.navbar ul li i{
+    margin: 0 25px 0 0;
+}
+.navbar ul li a:hover{
+    transform: translateX(30px);
+    font-weight: bold;
+}
+#photo-profile{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    transform: translateX(20px);
+}
+.offcanvas-header .btn-group{
+    transform: translateX(-50px);
+}
+.offcanvas-header ul li{
+    height: 10px;
+    width: 200px;
+    transform: translateY(-5px);
+    background-color: #fff;
+}
+.offcanvas-header ul li :hover{
+    background-color: transparent;
+}
+#btn-username{
+    transform: translateX(-30px);
+}
+/* Navbar */
+#setting-profile{
+    width: 45%;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.card{
+    width: 30rem;
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.card-body ul li{
+    list-style: none;
+    margin: 0 0 20px -30px;
+}
+.card-body ul .btn-action{
+    margin: 10px 0 0 -50px;
+}
+.card-body a{
+    text-decoration: none;
+}
+.card-body i{
+    margin: 0 10px 0 0 ;
+}
+.card-body button{
+    margin: 0 0 0 15px;
+}
+#toggle2-password{
+transform: translateX(700px) translateY(-30px);
+}
+/* Footer */
+footer {
+    background-color: #0077b6;
+    background: linear-gradient( to top, #0077b6, #00b4d8);
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p, .single-box-1 {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul, .single-box-1 ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box-1 ul {
+    display: flex;
+    list-style: none;
+	padding: 0;
+}
+.single-box-1 ul li i{
+    font-size: 25px;
+    margin: 10px;
+}
+.single-box ul li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+    #promo1{
+        height: 400px;
+        background-position-x: -25px;
+    }
+    #liveToastBtn{
+        transform: translateY(310px);
+        height: 50px;
+        text-align: center;
+    }
+    .mb-5 ul{
+        display: flex;
+        margin: 0 0 0 -20px;
+    }
+    .mb-5 ul li{
+        list-style: none;
+        margin: 0 10px 0 0;
+    }
+    .mb-5 ul li button{
+        width: 150px;
+        height: 50px;
+    }
+    #list-pengaturan button {
+        background: transparent;
+        border: none;
+        transform: translateY(-25px) translateX(145px);
+    }
+    .modal-body .edit-name{
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    .modal-body .edit-pass{
+        padding: 0 0 0 15px;
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    .modal-body .edit-confirm-pass{
+        padding: 0 0 0 15px;
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    #toggle2-password, #toggle-password3{
+        transform: translateX(275px) translateY(-25px);
+        color: black;
+    }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+.card{
+    width: 300px;
+    height: 100px;
+}
+.card-body h5{
+    font-size: 15px;
+    transform: translateY(-20px);
+}
+#setting-profile{
+    width: 25%;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.mb-5 ul{
+    display: inline-block;
+    margin: 0 0 0 -20px;
+}
+.mb-5 ul li{
+    list-style: none;
+    margin: 0 0 5px 0;
+}
+.mb-5 ul .btn-action button{
+    margin: 20px 0 0 0;
+    transform: translateX(15px);
+    width: 100px;
+    height: 40px;
+}
+
+.mb-5 ul .btn-action #btn-logout{
+    width: 120px;
+    height: 40px;
+}
+}
+
+/* Footer */

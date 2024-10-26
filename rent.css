@@ -1,0 +1,663 @@
+body{
+    width: 1400px;
+    height: 2000px;
+}
+.body-about{
+    height: 1000px;
+}
+.body-kendaraan{
+    height: 1300px;
+}
+.mobil{
+    height: 100px;
+}
+.navbar{
+    height: 100px;
+    background-color: #0077b6;
+    background: linear-gradient( to bottom, #0077b6, #00b4d8);
+}
+.navbar img{
+    width: 240px;
+    height: 135px;
+    position: relative;
+    bottom: 7px;
+}
+.navbar-nav{
+    position: relative;
+    right: 12%;
+}
+.collapse{
+    margin: 50px 300px;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    right: 50px;
+}
+#home{
+    width: 100px;
+    margin: 0 35px 0 0;
+}
+#kendaraan{
+    width: 135px;
+    margin: 0 35px 0 -35px;
+}
+#status{
+    width: 70px;
+    margin: 0 35px 0 -30px;
+}
+#notifikasi{
+    width: 95px;
+    margin: 0 35px 0 -30px;
+}
+#pengaturan{
+    width: 110px;
+    margin: 0 35px 0 -30px;
+}
+#user{
+    width: 100px;
+    margin: 0 -200px 0 265px;
+}
+#user .user{
+    color: white;
+}
+#user .user:hover{
+    color: #072ac8;
+}
+.collapse ul li a{
+    width: 100%;
+    color: #caf0f8;
+    text-decoration: none;
+    text-align: center;
+}
+#drop li i{
+    font-size: 15px;
+    padding: 0 15px;
+}
+#user ul{
+    transform: translateX(-50px);
+}
+.collapse ul li :hover{
+    color: #072ac8;
+}
+.dropdown-menu{
+    background-color: #0077b6;
+    background: linear-gradient( to bottom, #0077b6, #00b4d8);
+}
+.dropdown-menu li :hover{
+    background-color: transparent;
+}
+h2{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+#user i {
+    font-size: 30px;
+}
+.user{
+    width: 50px;
+    border-style: none;
+    background: none;
+    text-align: center;
+}
+.carousel-inner img{
+    height: 600px;
+    object-fit: cover;
+}
+.promo{
+    margin: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+#cardP{
+    width: 500px;
+    margin: 0 15px 0 0;
+}
+#promo {
+    position: relative;
+    right: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-image: url(assets/download\ \(1\).png) ;
+    background-size: cover;
+}
+.btn{
+    width: 150px;
+}
+#cardP .card-title{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cardP .card-text{
+    font-size: 15px;
+}
+#cardP .text-body-secondary{
+    font-size: 11.5px;
+    font-style: italic;
+}
+.modal-body{
+    background-image: url(image/bg1.jpg);
+    background-size: cover;
+    color: white;
+}
+.modal-body h1{
+    font-weight: bold;
+}
+#rekomendasi{
+    width: 1200px;
+    position: relative;
+    left: 5%;
+    text-align: center;
+}
+#rekomendasi1{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#rekomendasi2{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#rekomendasi2 img{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+}
+#rekomendasi2 .card-body{
+    position: relative;
+    top: 20px;
+}
+#rekomendasi3{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#rekomendasi3 img{
+    position: relative;
+    bottom: 15px;
+    padding: -25px;
+}
+#rekomendasi3 .card-body{
+    position: relative;
+    bottom: 19px;
+}
+#rekomendasi4{
+    margin: 0 ;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#rekomendasi4 img{
+    position: relative;
+    bottom: 20px;
+    padding: 20px;
+}
+#rekomendasi4 .card-body{
+    position: relative;
+    bottom: 58px;
+}
+#produk{
+    text-align: center;
+    width: 1250px;
+    position: relative;
+    left: 5%;
+}
+#produk1{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk1 img{
+    position: relative;
+    width: 500px;
+    right: 130px;
+    bottom: 20px;
+}
+#produk1 .card-title{
+    position: relative;
+    bottom: 45px;
+}
+#produk1 ul{
+    position: relative;
+    bottom: 45px;
+}
+#produk2{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk2 img{
+    position: relative;
+    top: 20px;
+}
+#produk3{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk3 img{
+    position: relative;
+    top: 35px;
+}
+#produk3 .card-title{
+    position: relative;
+    top: 22.5px;
+}
+#produk3 ul{
+    position: relative;
+    top: 22px;
+}
+#produk5{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;  
+}
+#produk6{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk6 img{
+    position: relative;
+    top: 20px;
+}
+#produk6 .card-title{
+    position: relative;
+    top: 4px;
+}
+#produk6 ul{
+    position: relative;
+    top: 4px;
+}
+#produk7{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk7 img{
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+}
+#produk7 .card-title{
+    position: relative;
+    top: 10px;
+}
+#produk7 ul{
+    position: relative;
+    top: 10px;
+}
+#produk8{
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk8 img{
+    width: 450px;
+    position: relative;
+    right: 94px;
+}
+#produk8 .card-title{
+    position: relative;
+    bottom: 23px;
+}
+#produk8 ul{
+    position: relative;
+    bottom: 23px;
+}
+#produk10{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk10 img{
+    width: 400px;
+    position: relative;
+    right: 65px;
+    bottom: 30px;
+}
+#produk10 .card-title{
+    position: relative;
+    bottom: 89px;
+}
+#produk10 ul{
+    position: relative;
+    bottom: 89px;
+}
+#produk11{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk11 img{
+    position: relative;
+    top: 20px;
+}
+#produk13{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk13 img{
+    position: relative;
+    top: 15px;
+}
+#produk13 .card-title{
+    position: relative;
+    top: 3px;
+}
+#produk13 ul{
+    position: relative;
+    top: 5px;
+}
+#produk14{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk14 img{
+    width: 450px;
+    position: relative;
+    right: 95px;
+    bottom: 35px;
+}
+#produk14 .card-title{
+    position: relative;
+    bottom: 120px;
+}
+#produk14 ul{
+    position: relative;
+    bottom: 120px;
+}
+#produk15{
+    margin: 0 15px 0 0;
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk15 img{
+    width: 330px;
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+}
+#produk15 .card-title{
+    position: relative;
+    bottom: 42.5px;
+}
+#produk15 ul{
+    position: relative;
+    bottom: 42.5px;
+}
+#produk16{
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    height: 350px;
+}
+#produk16 img{
+    width: 230px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+#produk16 .card-title{
+    position: relative;
+    top: 5px;
+}
+#produk16 ul{
+    position: relative;
+    top: 5px;
+}
+.modal-header img{
+    width: 50px;
+    height: 35px;
+}
+.card-body .card-title{
+    color: white;
+}
+.card{
+    font-family: 'Poppins', sans-serif;
+}
+.card ul {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+}
+.card ul li{
+    list-style: none;
+    margin: 5px;
+}
+.card button{
+    width: 100px;
+}
+.input-group-text{
+    width: 100px;
+}
+.judul img{
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+.judul1 img{
+    position: relative;
+    bottom: 7px;
+    left: 15px;
+}
+.row{
+    position: relative;
+    left: 4%;
+}
+.btn-close{
+    position: relative;
+    left: 30px;
+}
+#rental{
+    width: 200px;
+}
+#tentang h5{
+    color: black;
+}
+.pengaturan{
+    display: flex;
+    width: 250px;
+    margin: 0 0 0 600px;
+}
+.pengaturan h3{
+    padding: 7px;
+}
+.pengaturan img{
+    margin: 0 0 0 15px;
+}
+.list-pengaturan ul{
+    margin: 100px 0 0 150px;
+}
+.list-pengaturan ul li{
+    list-style: none;
+}
+.list-pengaturan1 ul{
+    margin: 30px 0 0 150px;
+}
+.list-pengaturan1 ul li{
+    list-style: none;
+}
+.username .name{
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    text-align: center;
+}
+.password .pass{
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    text-align: center;
+}
+.email .mail{
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    text-align: center;
+}
+.noHp .no{
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    text-align: center;
+}
+.username .edit{
+    position: relative;
+    right: 40px;
+    border: none;
+    background: transparent;
+}
+.password .edit{
+    position: relative;
+    right: 40px;
+    border: none;
+    background: transparent;
+}
+.email .edit{
+    position: relative;
+    right: 40px;
+    border: none;
+    background: transparent;
+}
+.noHp .edit{
+    position: relative;
+    right: 40px;
+    border: none;
+    background: transparent;
+}
+.edit-pass{
+    margin: 0 0 10px 0;
+}
+#toggle2-password, #toggle-password3{
+    transform: translateX(-50px);
+    color: black;
+}
+.modal-header{
+    width: 470px;
+}
+.modal-body input{
+    margin-left: 30px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+}
+.tentang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#deskripsi{
+    width: 700px;
+    margin: 0 50px 10px 0;
+}
+#deskripsi .card-header{
+    background-color: #00b4d8;
+    background: linear-gradient( to top, #00b4d8, #0077b6);
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    color: #F5F1ED;
+}
+#deskripsi .card-body{
+    background-color: #00b4d8;
+    color: white;
+}
+#anggota{
+    width: 500px;
+}
+#anggota .card-header{
+    background-color: #0077b6;
+    background: linear-gradient( to top, #0077b6, #00b4d8);
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    color: #F5F1ED;
+}
+#anggota .card-body{
+    background-color: #0077b6;
+    color: white;
+}
+footer{
+    background-color: #F5F1ED;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-home{
+    transform: translateY(120px);
+}
+.footer-status{
+    position: relative;
+    top: 45%;
+}
+.footer-about{
+    position: relative;
+    bottom: 30px;
+}
+footer .card-header{
+    background-color: #0077b6;
+    background: linear-gradient( to top, #0077b6, #00b4d8);
+    border-bottom: none;
+}
+footer .card-header h4{
+    color: white;
+}
+footer .card-body{
+    background-color: #0077b6;
+    background-image: url(assets/wave.svg);
+    background-size: cover;
+    border-bottom: none;
+}
+#tentang h5{
+    color: white;
+}
+footer .card-footer{
+    border: none;
+}
+footer img{
+    width: 30px;
+    height: 35px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li i{
+    padding: 5px 10px;
+    font-size: 30px;
+    color: white;
+}
+footer ul li{
+    padding: 0 15px;
+    list-style: none;
+}
+

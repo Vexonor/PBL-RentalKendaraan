@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.heading{
+    text-transform: uppercase;
+}
+.hand-gif{
+    margin: -15px 0 0 0;
+}
+.navbar{
+    background-color: #0077b6;
+    background: linear-gradient( 50deg, #0077b6, #00b4d8);
+}
+.navbar img{
+    transform: scale(1) translateX(20px) translateY(-2px);
+    height: 50px;
+}
+.navbar-brand{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+.navbar strong{
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.navbar hr{
+    margin: 5px 0 0 0;
+}
+.navbar ul{
+    font-size: 20px;
+}
+.navbar ul li{
+    margin: 0 0 20px 0;
+}
+.navbar ul li a{
+    transition: 0.2s;
+}
+.navbar ul li i{
+    margin: 0 25px 0 0;
+}
+.navbar ul li a:hover{
+    transform: translateX(30px);
+    font-weight: bold;
+}
+#photo-profile{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    transform: translateX(20px);
+}
+.offcanvas-header .btn-group{
+    transform: translateX(-50px);
+}
+.offcanvas-header ul li{
+    height: 10px;
+    width: 200px;
+    transform: translateY(-5px);
+    background-color: #fff;
+}
+.offcanvas-header ul li :hover{
+    background-color: transparent;
+}
+#btn-username{
+    transform: translateX(-30px);
+}
+/* Navbar */
+/* Carousel */
+h2{
+    font-family: 'Kanit', sans-serif;
+}
+.carousel-inner img{
+border-radius: 10px;
+}
+/* Carousel */
+/* Promo */
+.card-body {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title-promo h5{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    flex-grow: 1;
+}
+.card-description {
+    max-height: 60px; 
+    overflow-y: auto;
+  }
+/* Promo */
+/* Rekomendasi */
+#card{
+    background-image: url(image/photo-1633889837905-ad10c395edc4.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.card-body h5{
+    color: #fff;
+    font-size: 30px;
+}
+.mb-2 ul{
+    display: flex;
+    margin: 10px 0 0 0;
+}
+.mb-2 ul li{
+    list-style: none;
+    margin: 0 0 0 -30px;
+}
+.mb-2 ul li button{
+    width: 110px;
+    height: 40px;
+}
+#detail-btn{
+    margin: 0 60px 0 0;
+}
+.modal-header{
+    background-color: #0077b6;
+    background: linear-gradient(90deg, #caf0f8, #0077b6);
+}
+.modal-footer{
+    background-color: #0077b6;
+    background: linear-gradient(-90deg, #caf0f8, #0077b6);
+}
+.modal-body{
+    background-image: url(image/bg1.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+    color: white;
+
+}
+#modal-detail{
+    height: 400px;
+    color: white;
+    filter: brightness(95%);
+}
+.modal-body h1{
+    font-weight: bold;
+}
+.modal-body input{
+    margin-left: 30px;
+    width: 400px;
+    border-radius: 50px;
+}
+.modal-body img{
+    margin: 0 15px 0 10px;
+}
+.input-group-text{
+    width: 160px;
+}
+#label-rp{
+    width: 50px;
+}
+#key-gif{
+    transform: translateY(-10px);
+}
+/* Rekomendasi */
+/* Pengaturan */
+.name{
+    background: none;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+.mail{
+    background: none;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+.pass{
+    background: none;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+.no{
+    background: none;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+#list-pengaturan button {
+    background: transparent;
+    border: none;
+    transform: translateY(-25px) translateX(165px);
+}
+.card i{
+    font-size: 20px;
+    color: #fff;
+}
+#toggle2-password, #toggle-password3{
+    transform: translateX(-50px);
+    color: black;
+}
+/* Pengaturan */
+/* Status */
+#btn-status ul{
+    display: block;
+}
+/* Status */
+/* Footer */
+footer {
+    background-color: #0077b6;
+    background: linear-gradient( to top, #0077b6, #00b4d8);
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p, .single-box-1 {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul, .single-box-1 ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box-1 ul {
+    display: flex;
+    list-style: none;
+	padding: 0;
+}
+.single-box-1 ul li i{
+    font-size: 25px;
+    margin: 10px;
+}
+.single-box ul li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+    #promo1{
+        height: 400px;
+        background-position-x: -25px;
+    }
+    #liveToastBtn{
+        transform: translateY(310px);
+        height: 50px;
+        text-align: center;
+    }
+    .mb-5 ul{
+        display: flex;
+        margin: 0 0 0 -20px;
+    }
+    .mb-5 ul li{
+        list-style: none;
+        margin: 0 10px 0 0;
+    }
+    .mb-5 ul li button{
+        width: 150px;
+        height: 50px;
+    }
+    #list-pengaturan button {
+        background: transparent;
+        border: none;
+        transform: translateY(-25px) translateX(145px);
+    }
+    .modal-body .edit-name{
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    .modal-body .edit-pass{
+        padding: 0 0 0 15px;
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    .modal-body .edit-confirm-pass{
+        padding: 0 0 0 15px;
+        width: 100%;
+        transform: translateX(-30px);
+    }
+    #toggle2-password, #toggle-password3{
+        transform: translateX(275px) translateY(-25px);
+        color: black;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+    #promo1{
+        height: 400px;
+        background-position-x: -45px;
+    }
+    #action-btn ul{
+        transform: translateX(13px);
+    }
+    #action-btn button{
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #action-btn ul{
+        transform: translateX(-45px);
+    }
+    #action-btn button{
+        width: 100px;
+        height: 50px;
+    }
+    #detail-btn{
+        transform: translateX(50px);
+    }
+  }
+
+/* Footer */
+#confirm-no[type="number"]::-webkit-inner-spin-button,
+#confirm-no[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#confirm-no[type="number"] {
+  -moz-appearance: textfield;
+}
